@@ -1,0 +1,11 @@
+entity.archivesspace.add_form:
+  route_name: entity.archivesspace.add_page
+  title: 'Add ArchivesSpace'
+  appears_on:
+    - entity.archivesspace.collection
+entity.archivesspace_type.add_form:
+  route_name: entity.archivesspace_type.add_form
+  title: 'Add ArchivesSpace type'
+  appears_on:
+    - entity.archivesspace_type.collection
+

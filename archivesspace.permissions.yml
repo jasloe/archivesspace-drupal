@@ -1,0 +1,30 @@
+add archivesspace entities:
+  title: 'Create new ArchivesSpace entities'
+
+administer archivesspace entities:
+  title: 'Administer ArchivesSpace entities'
+  description: 'Allow to access the administration form to configure ArchivesSpace entities.'
+  restrict access: true
+
+delete archivesspace entities:
+  title: 'Delete ArchivesSpace entities'
+
+edit archivesspace entities:
+  title: 'Edit ArchivesSpace entities'
+
+view published archivesspace entities:
+  title: 'View published ArchivesSpace entities'
+
+view unpublished archivesspace entities:
+  title: 'View unpublished ArchivesSpace entities'
+
+view all archivesspace revisions:
+  title: 'View all ArchivesSpace revisions'
+
+revert all archivesspace revisions:
+  title: 'Revert all ArchivesSpace revisions'
+  description: 'Role requires permission <em>view ArchivesSpace revisions</em> and <em>edit rights</em> for archivesspace entities in question or <em>administer archivesspace entities</em>.'
+
+delete all archivesspace revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view ArchivesSpace revisions</em> and <em>delete rights</em> for archivesspace entities in question or <em>administer archivesspace entities</em>.'

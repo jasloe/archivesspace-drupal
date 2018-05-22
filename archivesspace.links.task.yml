@@ -1,0 +1,23 @@
+# ArchivesSpace routing definition
+
+entity.archivesspace.canonical:
+  route_name: entity.archivesspace.canonical
+  base_route: entity.archivesspace.canonical
+  title: 'View'
+
+entity.archivesspace.edit_form:
+  route_name: entity.archivesspace.edit_form
+  base_route: entity.archivesspace.canonical
+  title: 'Edit'
+
+entity.archivesspace.version_history:
+  route_name: entity.archivesspace.version_history
+  base_route: entity.archivesspace.canonical
+  title: 'Revisions'
+
+entity.archivesspace.delete_form:
+  route_name:  entity.archivesspace.delete_form
+  base_route:  entity.archivesspace.canonical
+  title: Delete
+  weight: 10
+

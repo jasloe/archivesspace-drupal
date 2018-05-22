@@ -1,3 +1,15 @@
+archivesspace.archivesspace_type.*:
+  type: config_entity
+  label: 'ArchivesSpace type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
 field.field_settings.as_extent:
   type: mapping
   label: 'Default AS Extent widget settings'

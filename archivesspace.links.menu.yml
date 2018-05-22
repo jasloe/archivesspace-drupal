@@ -1,0 +1,18 @@
+
+# ArchivesSpace menu items definition
+entity.archivesspace.collection:
+  title: 'ArchivesSpace list'
+  route_name: entity.archivesspace.collection
+  description: 'List ArchivesSpace entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# ArchivesSpace type menu items definition
+entity.archivesspace_type.collection:
+  title: 'ArchivesSpace type'
+  route_name: entity.archivesspace_type.collection
+  description: 'List ArchivesSpace type (bundles)'
+  parent: system.admin_structure
+  weight: 99
+
